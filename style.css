@@ -71,6 +71,7 @@ h2 {
 	body {
 		max-width: auto;
 		max-height: 100%;
+		text-align: center;
 	}
 	.navbar {
 	position: absolute;
@@ -88,13 +89,19 @@ h2 {
 	.main-doc {
 	position: relative;
     top: -25px;
-    left: 0px;
+    left: 50px;
 	}
 	#popular-courses {
 		width: 100%;
 	}
 	#popular-courses li{
 		width: 53%;
+		list-style: inside;
+    	padding: 8px 22px 3px 56px;
+	}
+	#mba-carrer-options {
+		position: relative;
+		left: -32px;
 	}
 }
 @media only screen and (min-width: 920px) and (max-width: 1400px) {
