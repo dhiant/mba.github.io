@@ -1,7 +1,7 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    line-height: 1.5;
-    background: #F5F5F5;
+	font-family: 'Open Sans', Arial, sans-serif;
+	line-height: 1.5;
+	background: #F5F5F5;
 }
 /* styling nav bar */
 .navbar{
@@ -15,22 +15,22 @@ body {
 }
 .mba-documentation {
 	margin: 5px 14px;
-    font-size: 1.8rem;
+	font-size: 1.8rem;
 }
 .navbar ul {
-    height: 87%;
-    width: 100%;
-    overflow-y: auto;
-    list-style: none;
-    overflow-x: hidden;
-    padding-left: 0;
-    margin-left: -20px;
-    width: 110%;	
+	height: 87%;
+	width: 100%;
+	overflow-y: auto;
+	list-style: none;
+	overflow-x: hidden;
+	padding-left: 0;
+	margin-left: -20px;
+	width: 110%;	
 }
 .navbar li {
 	border-top: 1px solid;
-    height: auto;
-    padding: 10px 37px;
+	height: auto;
+	padding: 10px 37px;
 }
 .navbar a {
 	text-decoration: none;
@@ -44,11 +44,11 @@ a:hover {
 /* styling main document section */
 main {
 	position: relative;
-    left: 365px;
-    width: 75%;
-    padding: 23px;
-    letter-spacing: 1px;
-    font-size: 16px;
+	left: 365px;
+	width: 75%;
+	padding: 23px;
+	letter-spacing: 1px;
+	font-size: 16px;
 }
 h2 {
 	color: #009479;
@@ -59,13 +59,13 @@ h2 {
 }
 /* Popular Courses */
 #popular-courses ul {
-    padding-left: 13px;
-    padding-top: 15px;
-  }
+	padding-left: 13px;
+	padding-top: 15px;
+}
 #popular-courses li {
 	width: 33%;
-    float: left;
-    padding: 0 11px 10px 10px;
+	float: left;
+	padding: 0 11px 10px 10px;
 }
 @media only screen and (max-width: 900px) {
 	body {
@@ -74,10 +74,10 @@ h2 {
 		text-align: center;
 	}
 	.navbar {
-	position: absolute;
-    width: 90%;
-    height: 300px;
-    display: contents;
+		position: absolute;
+		width: 90%;
+		height: 300px;
+		display: contents;
 	}
 	.navbar ul {
 		width:100%;
@@ -87,25 +87,31 @@ h2 {
 		padding: 11px 70px;
 	}
 	.main-doc {
-	position: relative;
-    top: -25px;
-    left: 50px;
+		width: 100%;
+		position: relative;
+		top: -25px;
+		left: -5px;
 	}
 	#popular-courses {
 		width: 100%;
 	}
+	#popular-courses ul {
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		margin-left: 17px;
+	}
 	#popular-courses li{
-		width: 53%;
-		list-style: inside;
-    	padding: 8px 22px 3px 56px;
+		margin-right: 55px;
+		width: 32%
 	}
 	#mba-carrer-options {
 		position: relative;
-		left: -32px;
+		left: 0px;
 	}
 }
 @media only screen and (min-width: 920px) and (max-width: 1400px) {
 	.main-doc{
-	width:60%;
+		width:60%;
 	}
 }
